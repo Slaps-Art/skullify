@@ -1,0 +1,4 @@
+*.log -diff
+*.dump -diff
+*.trace -diff
+skullify/jellyfish_ascii.js linguist-generated=true

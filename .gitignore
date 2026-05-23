@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local config and secrets
+.env
+.env.*
+!.env.example
+.cache
+.config/
+.local/
+config.json
+.spotify*
+spotify-token*
+spotify-token-cache.json
+*token*
+*secret*
+!scripts/secret_scan.sh
+*credential*
+
+# Logs and output
+*.log
+launch.log
+*.trace
+*.dump
+*.tmp
+
+# Local/editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Local scratch files
+*.bak
+*.bak.*
+*.old
+*.old.*
+*.scratch
+*.scratch.*
